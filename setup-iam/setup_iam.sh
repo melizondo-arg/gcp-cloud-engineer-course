@@ -1,5 +1,6 @@
+#!/bin/bash
 #Variables
-SA_NAME= "dev-deployer"
+SA_NAME="dev-deployer"
 PROJECT_ID="gcp-cloud-engineer-curso01"
 
 #Create Service Account
