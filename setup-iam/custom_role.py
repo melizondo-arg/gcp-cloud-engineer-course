@@ -28,6 +28,7 @@ if __name__ == "__main__":
 #assign the project_id and role_id variables from the command line arguments
     create_custom_role(args.project_id, args.role_id)
 
+#Friendly reminder, I have this issue:
 #If you want to assign this custom role to a service account, you can use the following gcloud command:
 #gcloud projects add-iam-policy-binding [PROJECT_ID] --member="serviceAccount:[SA_NAME]@[PROJECT_ID].iam.gserviceaccount.com" --role="projects/[PROJECT_ID]/roles/[ROLE_ID]"
 #Every custom role created will have a unique identifier in the format: projects/[PROJECT_ID]/roles/[ROLE_ID], not like predefined roles which have a format like: roles/[ROLE_NAME]
